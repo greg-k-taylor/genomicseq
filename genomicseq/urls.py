@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from patient.views import PatientView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'patient/', PatientView.as_view()),
-    url(r'gene/', GeneView.as_view()),
+#    url(r'gene/', GeneView.as_view()),
 ]
