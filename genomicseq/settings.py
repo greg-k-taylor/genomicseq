@@ -25,7 +25,7 @@ SECRET_KEY = '8k31+*xojq-6$^cu=&ys)cb8m7e*4n8kpzw&w#kwyr=^oy&m7z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['genomicseq.herokuapp.com']
+ALLOWED_HOSTS = ['genomicseq.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'patient'
+    'patient',
+    'sequence'
 ]
 
 MIDDLEWARE_CLASSES = [
