@@ -25,7 +25,7 @@ SECRET_KEY = '8k31+*xojq-6$^cu=&ys)cb8m7e*4n8kpzw&w#kwyr=^oy&m7z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['genomicseq.herokuapp.com']
 
 
 # Application definition
