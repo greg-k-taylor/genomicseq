@@ -7,7 +7,7 @@ from patient.models import Patient
 from patient.serializers import PatientSerializer
 
 
-class MarkerView(APIView):
+class PatientView(APIView):
 
     def get(self, request):
         markers = Patient.objects.all()
