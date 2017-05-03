@@ -1,0 +1,7 @@
+Django==1.9.6
+dj-database-url==0.4.1
+djangorestframework
+gunicorn
+psycopg2
+whitenoise
+requests
