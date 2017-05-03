@@ -10,8 +10,8 @@ from patient.serializers import PatientSerializer
 class PatientView(APIView):
 
     def get(self, request):
-        markers = Patient.objects.all()
-        serializer = PatientSerializer(markers, many=True)
+        patients = Patient.objects.all()
+        serializer = PatientSerializer(patients, many=True)
         response_data = {'patients': serializer.data}
         return JsonResponse(response_data, safe=False)
 
